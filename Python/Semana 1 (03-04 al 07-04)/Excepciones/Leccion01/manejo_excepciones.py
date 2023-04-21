@@ -10,6 +10,10 @@ except ZeroDivisionError as e:
     print(f'Ocurrio un error: {e}')
 except Exception as e:
     print(f'Exception - Ocurrió un error: {type(e)}')
+else:
+    print("No se arrojo ninguna exepcion")
+finally: # Siempre se va a ejecutar
+    print("Ejecucion de este bloque finally")
 
 print(f'El resultado es: {resultado}')
 print('seguimos...')
