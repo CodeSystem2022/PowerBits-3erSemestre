@@ -20,7 +20,7 @@ console.log("Fin del ciclo Do While");
 for(let contando = 0; contando < 3; contando++){
     console.log(contando)
 }
-console.log("Fin del ciclo for");
+console.log("Fin del ciclo for");
 
 // Palabra reservada break
 for(let contando = 0; contando <= 10; contando++){
@@ -29,3 +29,12 @@ for(let contando = 0; contando <= 10; contando++){
     }
 }
 console.log("Termina el ciclo al encontrar el primer número par");
+
+// La palabra continue
+for(let contando = 0; contando <= 10; contando++){
+    if(contando % 2 !== 0){
+    continue; //ir a la siguiente iteración
+         }
+         console.log(contando): 0, 2, 4, 6, 8, 10
+}
+console.log("Terminar ciclo"); Termina el ciclo
