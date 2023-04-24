@@ -4,6 +4,22 @@
 
 ![GIF](https://user-images.githubusercontent.com/112595518/231920481-c2a4e4ae-5387-444d-b3bc-7152ff46198d.gif)
 
+
+
+|  **SEMANA**	 |  **SCRUM MASTER**  |
+|---- | ---- |
+| :pencil: Semana 1	 |  *Lucas Mendez*  |
+| :pencil: Semana 2	 | *Lucas Mendez*   |
+| :pencil: Semana 3	 | *Nadia Gonzalez* |
+| :pencil: Semana 4	 | *Facundo Rios* |
+| :pencil: Semana 5	 | *Antonella Arraez* |
+| :pencil: Semana 6	 | *Héctor Fonzalida* |
+| :pencil: Semana 7	 | *Nicolas Machuca* |
+| :pencil: Semana 8	 | *Ivana Gonzalez* |
+| :pencil: Semana 9	 | *Juan Machuca* |
+
+
+
 𝙸𝚗𝚝𝚎𝚐𝚛𝚊𝚗𝚝𝚎𝚜:
 
 👾  𝙰𝚗𝚝𝚘𝚗𝚎𝚕𝚕𝚊 𝙰𝚛𝚛𝚊𝚎𝚣
@@ -21,3 +37,4 @@
 👾  𝙽𝚊𝚍𝚒𝚊 𝙶𝚘𝚗𝚣á𝚕𝚎𝚣
 
 👾  𝙽𝚒𝚌𝚘𝚕á𝚜 𝙼𝚊𝚌𝚑𝚞𝚌𝚊
+
