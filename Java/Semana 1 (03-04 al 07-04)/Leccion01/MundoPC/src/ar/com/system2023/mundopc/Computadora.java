@@ -11,12 +11,12 @@ private static int contadorComputadoras;
 
 //Constructor vacio
 private Computadora(){
-    this idComputadora = ++Computadora.contadorComputadoras;
+    this.idComputadora = ++Computadora.contadorComputadoras;
     }
 
 //Contructor 2
 public Computadora(String nombre, Monitor monitor, Teclado teclado, Raton rator){
-    this():
+    this();
     this.nombre = nombre;
     this.monitor = monitor;
     this.teclado = teclado;
@@ -47,13 +47,14 @@ public Teclado getTeclado (){
 }
 
 public void setTeclado(Teclado teclado){
-    this.teclado = teclado
+    this.teclado = teclado;
 }
 
-public Raton getRator(){
-    return raton
+public Raton getRaton(){
+    return raton;
 }
 
 public void setRaton(Raton raton) {
     this.raton = raton;
+}
 }
