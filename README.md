@@ -3,12 +3,7 @@
 ![Sin título-1](https://user-images.githubusercontent.com/112595518/231924460-a33ab062-61ea-4c4b-8875-6dc14b9d9fb2.png)
 
 ![GIF](https://user-images.githubusercontent.com/112595518/231920481-c2a4e4ae-5387-444d-b3bc-7152ff46198d.gif)
-#.
-#.
-#.
-#.
-#.
-#.
+
 #.
 |  ***SEMANA***	 |  ***SCRUM MASTER***  |
 |--------- | --------- |
@@ -22,12 +17,12 @@
 | **🕹️: Semana 8	**    | ***Ivana Gonzalez***     |
 | **🕹️: Semana 9	**    | ***Juan Machuca***    |
 #.
-#.
-#.
-#.
-#.
-#.
-#.
+
+
+
+
+
+
 
 
 𝙸𝚗𝚝𝚎𝚐𝚛𝚊𝚗𝚝𝚎𝚜:
