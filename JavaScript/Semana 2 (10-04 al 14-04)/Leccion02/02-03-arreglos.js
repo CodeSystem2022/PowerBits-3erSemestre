@@ -25,3 +25,8 @@ console.log(autos);
 // Tercera forma de agregar elementos teniendo CUIDADO
 autos[6] = 'Renault';
 console.log(autos);
+
+//Como preguntar si es un Array o Arreglo (son lo mismo)
+console.log(Array.isArray(autos)); //Devuelve un Booleano
+
+console.log(autos instanceof Array); //Otra forma de preguntar, pregunatndo si la instancia es de la clase array
