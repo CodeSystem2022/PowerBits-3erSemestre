@@ -3,7 +3,7 @@ class Pelicula:
         self.nombre = nombre
 
     def __str__(self):
-        return f'Pelicula: {self._nombre}'
+        return f'Pelicula: {self.nombre}'
 
     @property
     def nombre(self):
@@ -11,5 +11,5 @@ class Pelicula:
 
     @nombre.setter
     def nombre(self, nombre):
-        self.nombre = nombre
+        self._nombre = nombre
         
