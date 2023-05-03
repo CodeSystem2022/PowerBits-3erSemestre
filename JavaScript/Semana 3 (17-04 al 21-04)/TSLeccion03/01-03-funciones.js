@@ -57,3 +57,27 @@ function sumarTodo(){
     }
     return suma;
 }
+
+//Tipos primitivos
+let k = 10;
+function cambiarValor(a){ //Paso por valor
+    a = 20;
+}
+
+cambiarValor(k);
+console.log(k)
+
+//Paso por referencia
+const persona = {
+    nombre: 'Juan',
+    apellido: 'Lepez'
+}
+
+console.log(persona);
+function cambiarValorObjeto(p1){
+    p1.nombre = 'Ignacio';
+    p1.apellido = 'Perez';
+}
+
+cambiarValorObjeto(persona);
+console.log(persona);
