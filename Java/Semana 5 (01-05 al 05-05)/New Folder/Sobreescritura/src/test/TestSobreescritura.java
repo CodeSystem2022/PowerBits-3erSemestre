@@ -16,5 +16,5 @@ public class TestSobreescritura {
     
     public static void imprimir(Empleado empleado){
         System.out.println("empleado = " + empleado.obtenerDetalles());
-    }
+    }    
 }
