@@ -27,19 +27,19 @@
 
 𝙸𝚗𝚝𝚎𝚐𝚛𝚊𝚗𝚝𝚎𝚜:
 
-👾- [𝙰𝚗𝚝𝚘𝚗𝚎𝚕𝚕𝚊 𝙰𝚛𝚛𝚊𝚎𝚣](https://github.com/antonellaarraez)
+👾 [𝙰𝚗𝚝𝚘𝚗𝚎𝚕𝚕𝚊 𝙰𝚛𝚛𝚊𝚎𝚣](https://github.com/antonellaarraez)
 
-👾- [𝙵𝚊𝚌𝚞𝚗𝚍𝚘 𝚁𝚒𝚘𝚜](https://github.com/jfacundorios)
+👾 [𝙵𝚊𝚌𝚞𝚗𝚍𝚘 𝚁𝚒𝚘𝚜](https://github.com/jfacundorios)
 
-👾- [𝙷é𝚌𝚝𝚘𝚛 𝙵𝚘𝚗𝚣𝚊𝚕𝚒𝚍𝚊](https://github.com/hector-fonzalida)
+👾 [𝙷é𝚌𝚝𝚘𝚛 𝙵𝚘𝚗𝚣𝚊𝚕𝚒𝚍𝚊](https://github.com/hector-fonzalida)
 
-👾- [𝙸𝚟𝚊𝚗𝚊 𝙶𝚘𝚗𝚣á𝚕𝚎𝚣](https://github.com/IviiGonzalez)
+👾 [𝙸𝚟𝚊𝚗𝚊 𝙶𝚘𝚗𝚣á𝚕𝚎𝚣](https://github.com/IviiGonzalez)
 
-👾- [𝙹𝚞𝚊𝚗 𝙼𝚊𝚌𝚑𝚞𝚌𝚊](https://github.com/juaniM4c)
+👾 [𝙹𝚞𝚊𝚗 𝙼𝚊𝚌𝚑𝚞𝚌𝚊](https://github.com/juaniM4c)
 
-👾- [𝙻𝚞𝚌𝚊𝚜 𝙼𝚎𝚗𝚍𝚎𝚣](https://github.com/LucasMendez11)
+👾 [𝙻𝚞𝚌𝚊𝚜 𝙼𝚎𝚗𝚍𝚎𝚣](https://github.com/LucasMendez11)
 
-👾- [𝙽𝚊𝚍𝚒𝚊 𝙶𝚘𝚗𝚣á𝚕𝚎𝚣](https://github.com/NadiaGonzalez27)
+👾 [𝙽𝚊𝚍𝚒𝚊 𝙶𝚘𝚗𝚣á𝚕𝚎𝚣](https://github.com/NadiaGonzalez27)
 
-👾- [𝙽𝚒𝚌𝚘𝚕á𝚜 𝙼𝚊𝚌𝚑𝚞𝚌𝚊](https://github.com/Nico25Mac)
+👾 [𝙽𝚒𝚌𝚘𝚕á𝚜 𝙼𝚊𝚌𝚑𝚞𝚌𝚊](https://github.com/Nico25Mac)
 
