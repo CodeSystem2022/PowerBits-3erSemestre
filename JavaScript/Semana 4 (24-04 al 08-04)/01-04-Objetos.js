@@ -6,14 +6,21 @@ let persona = {
     nombre: 'Carlos',
     apellido: 'Gil',
     email: 'cgil@gmail.com',
-    edad: 30,
+    edad: 28,
+    idioma: 'es',
+    get lang(){
+        return this.idioma.toUpperCase(); //Convierte las minúsculas a mayúsculas.
+    },
+    set lang(lang){
+        this.idioma = lang.toUpperCase();
+    },
     nombreCompleto: function(){ //método o funcion en JavaScript
         return this.nombre+' '+this.apellido;
     },
     get nombreEdad(){
         return 'El nombre es: '+this.nombre+' '+', Edad: '+this.edad;
     }
-
+    
 }
 
 console.log('Nombre: '+persona.nombre);
@@ -64,3 +71,8 @@ console.log(personaString);
 
 console.log('Comenzamos a utilizar el metodo get')
 console.log(persona.nombreEdad);
+
+console.log('Comenzamos con el método get y set para idiomas');
+persona.lang = 'en';
+console.log(persona.lang);
+
