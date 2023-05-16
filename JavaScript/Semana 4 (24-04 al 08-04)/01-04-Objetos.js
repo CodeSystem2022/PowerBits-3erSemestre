@@ -44,8 +44,8 @@ for (propiedad in persona) {
     
 }
 console.log('Cambiamos y eliminamos un error');
-persona.apellida = 'Betancud'; //Cambiamos dinamicamente un valor del objeto
-delete persona.apellida; //Eliminamos el error
+persona.apellido = 'Betancud'; //Cambiamos dinamicamente un valor del objeto
+delete persona.apellido; //Eliminamos el error
 console.log(persona);
 
 // Distintas formas de imprimir un objeto
@@ -76,3 +76,13 @@ console.log('Comenzamos con el método get y set para idiomas');
 persona.lang = 'en';
 console.log(persona.lang);
 
+function Persona3(nombre, apellido, email){   //constructor
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+}
+let padre = new Persona3('Leo', 'Lopez', 'lopezl@gmail.com');
+console.log(padre);
+
+let madre = new Persona3('Laura', 'Contrera', 'contreal@gmail.com');
+console.log(madre);
