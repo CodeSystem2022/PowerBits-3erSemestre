@@ -132,3 +132,20 @@ console.log(padre);
 console.log(madre.telefono);
 madre.telefono = '5492618383832';
 console.log(madre.telefono);
+
+//Uso de call
+let persona4 = {
+    nombre: 'Juan',
+    apellido: 'Perez',
+    nombreCompleto2: function(titulo, telefono){
+        return titulo+': '+this.nombre+' '+this.apellido+' '+telefono;
+    }
+}
+
+let persona5 = { 
+    nombre: 'Carlos',
+    apellido: 'Lara'
+}
+
+console.log(persona4.nombreCompleto2('Lic.', '6565626615'));
+console.log(persona4.nombreCompleto2.call(persona5, 'Ingeniero', '254626416'));
