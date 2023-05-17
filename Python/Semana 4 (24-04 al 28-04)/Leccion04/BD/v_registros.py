@@ -5,8 +5,9 @@ try:
     with conexion:
         with conexion.cursor() as cursor:
             sentencia = 'SELECT * FROM persona WHERE id_persona IN (1, 2)' # Placeholder
-           # id_persona = input('Digite un número para el id_persona: ')
-            cursor.execute(sentencia, (id_persona,)) # De esta manera ejecutamos la sentencia.
+            entrada = input('Digite los id_persona a buscar (separados por comas): ')
+            llaves_primarias = (tuple(entrada.split(', ')),)
+            cursor.execute(sentencia, llaves_primarias) # De esta manera ejecutamos la sentencia.
             registros = cursor.fetchall() # Recuperamos todos los registros que serán una lista.
             for registro in registros:
                 print(registros)
