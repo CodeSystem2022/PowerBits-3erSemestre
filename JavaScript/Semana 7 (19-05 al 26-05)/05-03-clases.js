@@ -1,6 +1,6 @@
 //let persona3 = new Persona('Carla', 'Ponce'); //esto no se debe hacer: Persona is not defined
 
-class Persona{
+class Persona{ //Clase padre
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
@@ -26,6 +26,20 @@ class Persona{
     }
     set apellido(apellido){
         this._apellido = apellido;
+    }
+}
+
+class Empleado extends Persona{ //Clase hija
+    constructor(departamento){
+        this._departamento = departamento;
+    }
+
+    get departamento(){
+        return this._departamento;
+    }
+
+    set departamento(departamento){
+        this._departamento = departamento;
     }
 }
 
