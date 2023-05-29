@@ -29,7 +29,7 @@ class Persona{ //Clase padre
     }
 
     nombreCompleto(){
-        return this._nombre+' '+this._apeliido;
+        return this._nombre+' '+this._apellido;
     }
 }
 
@@ -45,6 +45,11 @@ class Empleado extends Persona{ //Clase hija
 
     set departamento(departamento){
         this._departamento = departamento;
+    }
+
+    //Sobreescritura 
+    nombreCompleto(){
+        return super.nombreCompleto()+', '+this._departamento;
     }
 }
 
