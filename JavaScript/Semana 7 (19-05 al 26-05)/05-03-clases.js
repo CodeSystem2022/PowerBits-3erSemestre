@@ -31,8 +31,10 @@ class Persona{ //Clase padre
     nombreCompleto(){
         return this._nombre+' '+this._apellido;
     }
-
+    //Sobreescribiendo el método de la clase padre (Objetc)
     toString(){ // Regresa un String
+        //Se aplica el polimosfismo que significa = multiples formas en tiempos de ejecución
+        //El método que se ejecuta depende si es una referencia de tipo padre o hija
         return this.nombreCompleto();
     }
 }
@@ -80,4 +82,4 @@ console.log(empleado1.nombreCompleto());
 
 //Object.prototype.toString Esta es la manera de acceder a atributos y métodos de manera dinámica.
 console.log(empleado1.toString());
-
+console.log(persona1.toString());
