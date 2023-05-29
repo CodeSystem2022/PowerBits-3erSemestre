@@ -27,6 +27,10 @@ class Persona{ //Clase padre
     set apellido(apellido){
         this._apellido = apellido;
     }
+
+    nombreCompleto(){
+        return this._nombre+' '+this._apeliido;
+    }
 }
 
 class Empleado extends Persona{ //Clase hija
@@ -61,6 +65,6 @@ persona2._apellido = 'Gomez';
 console.log(persona2.apellido);
 //console.log(persona2);
 
-Let empleado1 = new Empleado('María', 'Gimenez', 'Sistemas');
+let empleado1 = new Empleado('María', 'Gimenez', 'Sistemas');
 console.log(empleado1);
-console.log(empleado1.nombre);
+console.log(empleado1.nombreCompleto());
