@@ -31,6 +31,10 @@ class Persona{ //Clase padre
     nombreCompleto(){
         return this._nombre+' '+this._apellido;
     }
+
+    toString(){ // Regresa un String
+        return this.nombreCompleto();
+    }
 }
 
 class Empleado extends Persona{ //Clase hija
@@ -73,3 +77,7 @@ console.log(persona2.apellido);
 let empleado1 = new Empleado('María', 'Gimenez', 'Sistemas');
 console.log(empleado1);
 console.log(empleado1.nombreCompleto());
+
+//Object.prototype.toString Esta es la manera de acceder a atributos y métodos de manera dinámica.
+console.log(empleado1.toString());
+
