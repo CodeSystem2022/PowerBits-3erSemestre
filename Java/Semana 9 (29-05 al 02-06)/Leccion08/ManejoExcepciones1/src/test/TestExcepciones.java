@@ -1,6 +1,6 @@
 package test;
 
-import static Aritmetica.Aritmetica.division;
+import static aritmetica.Aritmetica.division;
 
 public class TestExcepciones {
     public static void main(String[] args) {
@@ -13,7 +13,5 @@ public class TestExcepciones {
             System.out.println(e.getMessage());
         }
         System.out.println("La variable resultado tiene como valor: "+resultado);
-        
-        
     }
 }
