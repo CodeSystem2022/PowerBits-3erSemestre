@@ -117,4 +117,7 @@ console.log(empleado1.email);
 console.log(persona1.toString());
 console.log(persona2.toString());
 console.log(empleado1.toString());
+console.log(Persona.contadorPersonas);
+let persona3 = new Persona('Carla', 'Pertosi');
+console.log(persona3.toString());
 console.log(Persona.contadorPersonas)
