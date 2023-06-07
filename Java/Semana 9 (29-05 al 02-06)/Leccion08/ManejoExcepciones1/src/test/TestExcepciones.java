@@ -1,13 +1,16 @@
 package test;
 
+import static Aritmetica.Aritmetica.division;
+
 public class TestExcepciones {
     public static void main(String[] args) {
         int resultado = 0;
         try{
-            resultado = 10/0;
+            resultado = division(10, 0);
         } catch(Exception e){
             System.out.println("Ocurrió un Error");
-            e.printStackTrace(System.out); //Se conoce como la pila de excepciones          
+            e.printStackTrace(System.out); //Se conoce como la pila de excepciones
+            System.out.println(e.getMessage());
         }
         System.out.println("La variable resultado tiene como valor: "+resultado);
         
