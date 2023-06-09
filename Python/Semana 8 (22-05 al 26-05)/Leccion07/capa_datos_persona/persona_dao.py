@@ -1,5 +1,6 @@
 from capa_datos_persona.Persona import Persona
 from capa_datos_persona.conexion import Conexion
+from logger_base import log
 
 
 class PersonaDAO:
@@ -16,7 +17,7 @@ class PersonaDAO:
     _ACTUALIZAR = 'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
     _ELIMINAR = 'DELETE FROM persona WHERE id_persona=%s'
 
-    #Definimos los métodos de la clase
+    # Definimos los métodos de la clase
     @classmethod
     def seleccionar(cls):
         with Conexion.obtenerConexion():
@@ -25,7 +26,12 @@ class PersonaDAO:
                 registros = cursor.fetchall()
                 personas = []  # creamos una lista
                 for registro in registros:
-                        persona = Persona(registro[0], registro[1], registro[2], registro[3])
-                        personas.append(persona)
+                    persona = Persona(registro[0], registro[1], registro[2], registro[3])
+                    personas.append(persona)
+                return personas
 
-    
+
+if __name__ == '__main__':
+    personas = PersonaDAO.seleccionar()
+    for persona in personas:
+        log.debug(personas)
