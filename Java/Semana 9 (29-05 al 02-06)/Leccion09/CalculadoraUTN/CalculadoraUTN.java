@@ -10,7 +10,7 @@ public class CalculadoraUTN {
                 4. Division
                 5. Salir""");
         System.out.print("Operacion a realizar? ");
-        var operacion = Integer.parseInt(entrada.netxLine());
+        var operacion = Integer.parseInt(entrada.nextLine());
 
         if(operacion >= 1 && operacion <= 4){
             System.out.println("Digite el valor para el operando1: ");
