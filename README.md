@@ -7,15 +7,14 @@
 
 |  ***SEMANA***	 |  ***SCRUM MASTER***  |
 |--------- | --------- |
-| **🕹️: Semana 1	**    |  ***Lucas Mendez***    |
-| **🕹️: Semana 2	**    | ***Lucas Mendez***     |
-| **🕹️: Semana 3	**    | ***Nadia Gonzalez***   |
-| **🕹️: Semana 4	**    | ***Facundo Rios***    |
-| **🕹️: Semana 5	**    | ***Antonella Arraez***    |
-| **🕹️: Semana 6	**    | ***Héctor Fonzalida***    |
-| **🕹️: Semana 7	**    | ***Nicolas Machuca***     |
-| **🕹️: Semana 8	**    | ***Ivana Gonzalez***     |
-| **🕹️: Semana 9	**    | ***Juan Machuca***    |
+| **🕹️: Semana 10	**    |  ***Lucas Mendez***    |
+| **🕹️: Semana 11	**    | ***Nadia Gonzalez***     |
+| **🕹️: Semana 12	**    | ***Facundo Rios***   |
+| **🕹️: Semana 13	**    | ***Antonella Arraez***    |
+| **🕹️: Semana 14	**    | ***Héctor Fonzalida***    |
+| **🕹️: Semana 15	**    | ***Nicolás Machuca***    |
+| **🕹️: Semana 16	**    | ***Ivana Gonzalez***     |
+| **🕹️: Semana 17	**    | ***Juan Machuca***     |
 
 
 
