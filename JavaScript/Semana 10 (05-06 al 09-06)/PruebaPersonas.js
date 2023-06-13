@@ -42,32 +42,29 @@ class Persona{
     }
 }
 
-class Empleado extends Persona{
+class Empleado extends Persona {
     static contadorEmpleados = 0;
 
-    constructor(nombre, apellido, edad){
+    constructor(nombre, apellido, edad, sueldo) {
         super(nombre, apellido, edad);
         this._idEmpleado = ++Empleado.contadorEmpleados;
         this._sueldo = sueldo;
     }
 
-    get _idEmpleado(){
+    get idEmpleado() {
         return this._idEmpleado;
     }
 
-    get sueldo(){
+    get sueldo() {
         return this._sueldo;
     }
 
-    set sueldo(sueldo){
+    set sueldo(sueldo) {
         this._sueldo = sueldo;
     }
 
     toString(){
-        return `
-        ${super.toString()}
-        ${this._idEmpleado} 
-        ${this._sueldo}`;
+        return `${super.toString()} ${this._idEmpleado} ${this._sueldo}`;
     }
 }
 
@@ -106,3 +103,10 @@ console.log(persona1.toString());
 
 let persona2 = new Persona('Carla', 'Ortega', 22);
 console.log(persona2.toString());
+
+//Prueba clase Empleado
+let empleado1 = new Empleado('Pedro', 'Román', 18, 5000);
+console.log(empleado1.toString());
+
+let empleado2 = new Empleado('Jonas', 'Torres', 30, 7000);
+console.log(empleado2.toString());
