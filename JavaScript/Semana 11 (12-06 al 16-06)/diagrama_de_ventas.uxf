@@ -1,0 +1,41 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>50</y><w>250</w><h>230</h></coordinates><panel_attributes>Orden
+--
+idOrden: number
+productos[]: Producto
+contadorProductosAgregados: number
+_contadorOrdendes: number_
+_MAX_PRODUCTOS: number = 5_
+--
+Orden()
+agregarProducto(producto)
+calcularTotal(): number
+mostrarOrden()
+--
+Responsibilidades
+- Crear objetos Orden
+- Administrar los productos de una orden</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>50</y><w>180</w><h>130</h></coordinates><panel_attributes>Ventas Test
+--
+Esto no es una clase
+Es la prueba de creacion
+de objetos Producto y Orden
+--
+Responsabilidades
+- Ejecutar la prueba de 
+la aplicacion de Ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>350</y><w>250</w><h>240</h></coordinates><panel_attributes>Producto
+--
+idProducto: number
+nombre: String
+precio: number
+_contadorProductos: number_
+--
+Producto()
+getIdProducto(): number
+getNombre(): String
+setNombre(nombre)
+getPrecio(): number
+setPrecio(precio)
+toString(): String
+--
+Responsibilidades
+- Crear objetos de tipo Producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>270</y><w>240</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+&lt;&lt;Un producto se agrega a una Orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>110</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;..&gt;</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element></diagram>
