@@ -28,6 +28,11 @@ class Producto{
     }
 
     toString(){ //Template Literals: Nos permite insertar código dinamicamente
-        return `idPrducto: ${this._idProducto}, nombre: ${this._nombre}, precio: ${this._precio}`;
+        return `idPrducto: ${this._idProducto}, nombre: ${this._nombre}, precio: $${this._precio}`;
     }
 } //Fin de la clase Producto
+
+let producto1 = new Producto('Pantalon', 200)
+let producto2 = new Producto('Camisa', 150)
+console.log(producto1.toString())
+console.log(producto2.toString())
