@@ -35,7 +35,7 @@ class Producto{
 class Orden{
     static contadorOrdenes = 0;
     static getMAX_PRODUCTOS(){
-        retur 5;
+        return 5;
     }
     
     contructor(){
@@ -57,9 +57,25 @@ class Orden{
             console.log('No se pueden agregar mas productos');
         }
     }//Fin del metodo agregarProducto
+
+    calcularTotal(){
+        let totalVenta = 0;
+        for(let producto of this._productos){
+            totalVenta += producto.precio;
+        }//Fin del ciclo for
+        return totalVenta;
+    }//Fin del método calcularTotal
+    
+    mostrarOrden(){
+        let productosOrden = ' ';
+        for(let producto of this._productos){
+            productosOrden+= '\n{'+producto.toString()+' ';
+        }//Fin del ciclo for
+        console.log(`Orden: ${this._idOrden}, Total: $${this.calcularTotal()}, Productos: ${productosOrden}`);
+    }//Fin metodo mostrarOrden
 }//Fin de la clase Orden
 
-let producto1 = new Producto('Pantalon', 200)
-let producto2 = new Producto('Camisa', 150)
-console.log(producto1.toString())
-console.log(producto2.toString())
+let producto1 = new Producto('Pantalon', 200);
+let producto2 = new Producto('Camisa', 150);
+console.log(producto1.toString());
+console.log(producto2.toString());
