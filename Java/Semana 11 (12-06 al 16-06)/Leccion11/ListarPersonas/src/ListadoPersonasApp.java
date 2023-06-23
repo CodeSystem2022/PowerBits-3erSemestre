@@ -9,13 +9,18 @@ public class ListadoPersonasApp {
         List<Persona> personas = new ArrayList<>();
         //Empezamos con el menu
         var salir = false;
-        while(!salir){
+        while (!salir) {
             mostrarMenu();
+            try {
+                salir = ejecutarOperacion(entrada, personas);
+            } catch (Exception e) {
+                System.out.println("Ocurrió un error: " + e.getMessage());
+            }
             System.out.println();
         }//Fin del ciclo while
     }//Fin metodo main
 
-    private static void mostrarMenu(){
+    private static void mostrarMenu() {
         //mostramos las opciones
         System.out.print("""
                 ******* Listado de Personas *******
@@ -24,6 +29,26 @@ public class ListadoPersonasApp {
                 3. Salir
                 """);
         System.out.print("Digite una de las opciones: ");
-    }
+    } //Fin de método mostrarMenu
 
-}
+    private static boolean ejecutarOperacion(Scanner entrada, List<Persona> personas) {
+        var opcion = Integer.parseInt(entrada.nextLine());
+        var salir = false;
+        //Revisamos la opción digitada a través de un switch
+        switch (opcion) {
+            case 1 -> { //Agregar una persona a la lista
+                System.out.print("Digite el nombre: ");
+                var nombre = entrada.nextLine();
+                System.out.print("Digite el teléfono: ");
+                var tel = entrada.nextLine();
+                System.out.print("Digite el correo: ");
+                var email = entrada.nextLine();
+                //Creamos el objeto persona
+                var persona = new Persona(nombre, tel, email);
+                //Agregamos la persona a la lista
+                personas.add(persona);
+                System.out.println("La lista tiene: " + personas.size() + " elementos");
+            } //Fin caso 1
+        }
+    } //Fin del método ejecutarOperacion
+}//Fin de clase ListadoPersonasApp
