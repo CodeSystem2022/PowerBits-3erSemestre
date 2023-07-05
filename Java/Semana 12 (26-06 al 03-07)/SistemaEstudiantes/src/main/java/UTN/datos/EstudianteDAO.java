@@ -18,6 +18,17 @@ public class EstudianteDAO {
         ResultSet rs; //Obtenemos el resultado de la base de datos.
         // Creamos un objeto de tipo conexion
         Connection con = getConnection();
-        String sql = "SELECT * FROM "
+        String sql = "SELECT * FROM estudiantes OREDER BY estudiantes2022";
+        try{
+            ps = con.prepareStatement(sql);
+            rs = ps.executeQuery();
+            while (rs.next()){
+                var estudiante = new Estudiante();
+                estudiante.setIdEstudiante(rs.getInt("idestudiante2022"));
+
+            }
+        }catch (Exception e){
+            System.out.println("Ocurrio un error al seleccionar datos: "+e.getMessage());
+        }
     }
 }
