@@ -168,7 +168,7 @@ public class EstudianteDAO {
         //    System.out.println("No se ha agregado nuevo estudiante: "+nuevoEstudiante);
 
         //Eliminar estudiante con id 3
-        var estudianteEliminar = new Estudiante(3);
+        var estudianteEliminar = new Estudiante(4);
         var eliminado = estudianteDao.eliminarEstudiante(estudianteEliminar);
         if(eliminado)
             System.out.println("Estudiante eliminado: "+estudianteEliminar);
