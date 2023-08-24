@@ -13,7 +13,8 @@ public class SistemaEstudiantesApp {
         var estudianteDao = new EstudianteDAO(); //Esta instancia debe hacerse una vez
         while(!salir){
             try {
-                mostarMenu(); //Este será el método que devolverá un booleano
+                mostarMenu(); //Mostramos el menú
+                //Este será el método ejecutarOpciones que devolverá un booleano
                 salir = ejecutarOpciones(consola, estudianteDao); //Este arroja una excepcion
             } catch(Exception e){
                 System.out.println("Ocurrió un error al ejecutar la operación: "+e.getMessage());
@@ -21,3 +22,16 @@ public class SistemaEstudiantesApp {
         }//Fin while
     } //Fin main
 }// Fin clase
+
+private static void mostrarMenu(){
+    System.out.print("""
+        ******* Sistema de Estudiante *******
+                     1. Listar Estudiantes
+                     2. Buscar Estudiantes
+                     3. Agregar Estudiante
+                     4. Modificar Estudiante
+                     5. Eliminar Estudiante
+                     6. Salir
+                     Elige opción:
+                     """)
+        }
