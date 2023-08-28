@@ -3,7 +3,6 @@ package UTN.presentacion;
 import UTN.conexion.Conexion;
 import UTN.datos.EstudianteDAO;
 import UTN.dominio.Estudiante;
-
 import java.util.Scanner;
 
 public class SistemaEstudiantesApp {
@@ -14,7 +13,7 @@ public class SistemaEstudiantesApp {
         var estudianteDao = new EstudianteDAO(); //Esta instancia debe hacerse una vez
         while(!salir){
             try {
-                mostarMenu(); //Mostramos el menú
+                mostrarMenu(); //Mostramos el menú
                 //Este será el método ejecutarOpciones que devolverá un booleano
                 salir = ejecutarOpciones(consola, estudianteDao); //Este arroja una excepcion
             } catch(Exception e){
@@ -22,7 +21,6 @@ public class SistemaEstudiantesApp {
             }
         }//Fin while
     } //Fin main
-}// Fin clase
 
     private static void mostrarMenu(){
         System.out.print("""
@@ -48,7 +46,7 @@ public class SistemaEstudiantesApp {
                 //no muestra la información, solo recupera la info y regresa una lista.
                 var estudiantes = estudianteDAO.listarEstudiantes();//recibe el listado
                 //vamos a iterar cada objeto de tipo estudiante
-                estudiantes.forEach(System.out.println();//para imprimir la lista
+                estudiantes.forEach(System.out::println); //para imprimir la lista
             }//Fin caso 1
             case 2 -> { //Buscar estudiante por id
                 System.out.println("Introduce el id_estudiante a buscar: ");
